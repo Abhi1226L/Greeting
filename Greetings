@@ -1,0 +1,32 @@
+import time
+a = input("Enter your name:")
+b = int(input("Enter your age:"))
+c = input("Enter your gender:")
+d = int(time.strftime("%H"))
+if(d>4 and d<12):
+    print(f"Good morning,{a}")
+    if(c=="Male" or c=="MALE" or c=="male"):      #Check
+        print("Have a good day,sir")
+    elif(c=="Female" or c=="FEMALE" or c=="female"):
+         print("Have a good day,maam") 
+elif(d>12 and d<16):
+    print(f"Good afternoon,{a}")
+    if(c=="Male" or c=="MALE" or c=="male"):
+        print("Have a good day,sir")
+    elif(c=="Female" or c=="FEMALE" or c=="female"):
+         print("Have a good day,maam") 
+elif(d>16 and d<20):
+    print(f"Good evening,{a}")
+    if(c=="Male" or c=="MALE" or c=="male"):
+        print("Have a good day,sir")
+    elif(c=="Female" or c=="FEMALE" or c=="female"):
+         print("Have a good day,maam") 
+else:
+    print(f"Good evening,{a}")
+    if(c=="Male" or c=="MALE" or c=="male"):
+        print("Have a good day,sir")
+    elif(c=="Female" or c=="FEMALE" or c=="female"):
+         print("Have a good day,maam") 
+
+
+
