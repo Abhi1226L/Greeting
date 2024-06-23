@@ -1,6 +1,6 @@
 # Greeting
 
-This program is designed to greet the user based on the current time of day. It provides personalized messages, including a time-specific greeting and a respectful acknowledgment of the user's gender. Below is the detailed description of the code and how to use it.
+This program is designed to greet the user based on the current time of day. It provides personalized messages, including a time-specific greeting and a respectful acknowledgment of the user's gender. 
 
 ##  Code Explanation
 
